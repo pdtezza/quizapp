@@ -18,11 +18,11 @@
     --shadow: 0px 16px 40px 0px rgba(143,160,193,0.14) ;
     --primary-text-color: #313e51;
     --secundary-text-color: #626c7f;
-    --bg-mobile: url(./assets/images/pattern-background-desktop-light.svg);
+    --bg-mobile: url(./assets/images/pattern-background-mobile-light.svg);
 }
 body{
     height: 100svh;
-    background: var(--bg-color);
+    background: var(--bg-mobile) var(--bg-color);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -97,6 +97,16 @@ main{
     box-shadow: var(--shadow);
 }
 
+.assuntos button div{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.assuntos button img{
+    width: 100%;
+}
 .botao_html div{
     background:var(--bg-html);
 }
